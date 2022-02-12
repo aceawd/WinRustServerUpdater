@@ -5,17 +5,17 @@ C:\rust-server\curl\bin\curl.exe -SL -A "Mozilla/5.0" "https://umod.org/games/ru
 C:\rust-server\WinRAR\WinRAR.exe x -ibck -o+ oxidemod.zip C:\rust-server
 del oxidemod.zip
 RustDedicated.exe -batchmode ^
-+server.hostname "DankDen" ^
++server.hostname "[hostname]" ^
 +server.port 28015 ^
 +server.level "Procedural Map" ^
 +server.seed 1234 ^
 +server.worldsize 4000 ^
 +server.maxplayers 10 ^
-+server.description "Debauchery" ^
++server.description "[description]" ^
 +server.url "" ^
 +server.headerimage "" ^
 +server.identity "server1" ^
 +rcon.port 28016 ^
-+rcon.password letmein ^
++rcon.password [enter password here] ^
 +rcon.web 1
 goto start
